@@ -1,0 +1,1 @@
+E:\学习\sqlSugar\代码生成器\SoEasyPlatform-master\Asp.Net\CodeGeneration\bin\Debug\SugarCodeGeneration.exe.config
