@@ -22,11 +22,14 @@ namespace SugarCodeGeneration
         /***3个必填参数***/
 
         //如果你不需要自定义，直接配好数据库连接，F5运行项目
-        const SqlSugar.DbType dbType = SqlSugar.DbType.SqlServer;
+        const SqlSugar.DbType dbType = SqlSugar.DbType.Oracle;
+       // const SqlSugar.DbType dbType = SqlSugar.DbType.SqlServer;
+
         /// <summary>
         /// 连接字符串
         /// </summary>
-        const string connectionString = "server=.;uid=sa;pwd=@jhl85661501;database=SqlSugar4XTest";
+        //const string connectionString = "server=.;uid=sa;pwd=@jhl85661501;database=SqlSugar4XTest";
+        const string connectionString = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521))" + "(CONNECT_DATA=(SID=ORCL)));User Id=myproject;Password=myproject;";  //正式环境
         /// <summary>
         ///解决方案名称
         /// </summary>
